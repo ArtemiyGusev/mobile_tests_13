@@ -25,6 +25,7 @@ class Settings(pydantic.BaseSettings):
     usrName: Optional[str] = None
     accessKey: Optional[str] = None
     browserStackUrl: Optional[str] = None
+    browserStackApi: Optional[str] = None
 
     # --- Remote Driver ---
     remote_url: str = f'http://{usrName}:{accessKey}@{browserStackUrl}'  # it's a default appium server url
