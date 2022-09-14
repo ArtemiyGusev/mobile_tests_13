@@ -4,7 +4,9 @@ __pycache__/
 .idea
 .python-version
 reports/
-config.personal.env
+config.personal.env.browserstack.example
+config.personal.env.local.example
 *.log
 demo
 browserstack_sample.py
+
